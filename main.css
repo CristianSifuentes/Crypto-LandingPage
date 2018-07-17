@@ -4,7 +4,7 @@ body, html{
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat';
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -20,19 +20,19 @@ body{
 .bg{
     -webkit-clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
     clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
-   z-index: -1;
-   background-color: #226dbc;
+    z-index: -1;
+    background-color: #226dbc;
   }
 
   
 .bg2{
-    -webkit-clip-path: polygon(63% 69%, 100% 9%, 100% 100%, 5% 100%);
-    clip-path: polygon(63% 69%, 100% 9%, 100% 100%, 5% 100%);
-    z-index: -2;
+     -webkit-clip-path: polygon(63% 69%, 100% 9%, 100% 100%, 5% 100%);
+     clip-path: polygon(63% 69%, 100% 9%, 100% 100%, 5% 100%);
+     z-index: -2;
      background-color: #2a5f98;
   }
   
-  .container{
+.container{
       display: grid;
       grid-template-columns: 50% auto;
       height: auto;
@@ -44,10 +44,10 @@ body{
       list-style-type: none;
       perspective: 1000px;
   }
-
+  
   ul li{
       display: grid;
-      grid-auto-columns: 20% auto;
+      grid-template-columns: 20% auto;
       border-radius: 10px;
       padding: 15px;
       cursor: pointer;
