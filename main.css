@@ -26,7 +26,7 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
     z-index: -1;
 
-    background-image: linear-gradient(to right bottom, rgba(89, 84, 84, 0.8), rgba(40, 180, 133, 0.8)), url(./images//343227-PAOC1U-764.jpg);
+    background-image: linear-gradient(to right bottom, rgba(89, 84, 84, 0.8), rgba(140, 180, 133, 0.8)), url(./images/37293294_1802347063211346_8346240707425468416_n.jpg);
     background-size: cover;
     background-position: top;
   }
